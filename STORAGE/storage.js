@@ -104,3 +104,32 @@ console.log(user);
 
 
 
+//rest parameter  
+
+const double = (...nums) =>{ 
+    console.log(nums);
+    return nums.map(nums => nums*4)
+}
+const result = double(2,34,5,6,7,8,9,1)
+
+console.log(result);
+
+//spread syntax
+
+const people = ['mike', 'emeka', 'iguu'];
+
+console.log(people)
+
+const members = ['thing', 'ken', 'okoli', ...people];
+
+console.log(members)
+
+
+//spread syntax
+
+const person ={name: 'papa', age: 30, job: 'market'};
+
+const personLife = {...person, location:'Abuja'};
+console.log(personLife)
+
+
