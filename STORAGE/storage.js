@@ -132,4 +132,38 @@ const person ={name: 'papa', age: 30, job: 'market'};
 const personLife = {...person, location:'Abuja'};
 console.log(personLife)
 
+//sets
+const men = ['mike', 'emeka', 'iguu', 'menu', 'moon', 'peter'];
 
+const nameSet = new Set(men);
+
+const unique = [...new Set(men)];
+console.log(men);
+
+const ages = new Set();
+ages.add(20);
+ages.add(76).add(30);
+ages.add(25);
+ages.delete(25);
+console.log(ages.has(30), ages.has(25));
+
+//ages.clear();
+console.log(ages);
+
+
+const local = new Set([ {nikName:'chyboy', age: '40'},
+                       {nikName:'fineboy', age: '54'},
+                       {nikName:'ken', age: '78'},
+                       {nikName:'kenne', age: '49'},
+                       {nikName:'joe', age: '56'},
+                       {nikName:'jack', age: '98'},
+                       {nikName:'unique', age: '78'},
+                       {nikName:'gudu', age: '34'},
+                       {nikName:'game', age: '65',}
+
+]);
+
+local.forEach(loc =>{
+  
+  console.log(loc);
+});

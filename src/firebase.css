@@ -1,0 +1,23 @@
+.form-2{
+    padding: 20px;
+    background-color: bisque;
+}
+button{
+    height: 35px;
+    width: 60px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    margin: 20px;
+
+}
+.fbtn{
+    margin-left: 150px;
+}
+.sbtn{
+    margin-left: 180px;
+}
+.tbtn{
+    margin-left: 150px;
+}
+.dbtn{margin-left: 100px;}

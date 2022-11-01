@@ -1,0 +1,22 @@
+{
+  "name": "dist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chuksezeh/weather_storage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chuksezeh/weather_storage/issues"
+  },
+  "homepage": "https://github.com/Chuksezeh/weather_storage#readme",
+  "dependencies": {
+    "firebase": "^9.13.0"
+  }
+}
