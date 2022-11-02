@@ -39,27 +39,82 @@
 // }).catch(err => {
 //     console.log(err);
 // });
-const submit = document.querySelector('.form-2');
-console.log(submit) 
+// const submit = document.querySelector('.form-2');
+ 
 
-const names = document.querySelector('.name');
-console.log(names)
+// const names = document.querySelector('#name');
 
-const pass = document.querySelector('.pass');
-console.log(pass)
+//const pass = document.querySelector('.pass');
+
+
+// submit.addEventListener('submit', e =>{
+//     e.preventDefault();
+// console.log(submit.names.value);
+
+    
+
+// });
+
+
+// const form = document.querySelector('.row');
+// const email = document.querySelector('#static');
+
+
+// form.addEventListener('submit', e =>{
+//     e.preventDefault();
+
+// console.log(email.value);
+// });
+
+
+const fname = document.querySelector('.fname');
+const username = document.querySelector('.username');
+const fNumber = document.querySelector('.phone');
 const email = document.querySelector('.email');
-console.log(email)
-const number = document.querySelector('.number');
 
-const createBtn = document.querySelector('.createbtn');
-const updateBtn = document.querySelector('.updatebtn');
-const retrieveBtn = document.querySelector('.retrievebtn');
+ 
+//  const retrieveBtn = document.querySelector('.retrievebtn');
+//  const deletebtn = document.querySelector('.deleteBtn');
 
-const deletebtn = document.querySelector('.deleteBtn');
 
-submit.addEventListener('submit', (e) =>{
+// 
+// const input = document.querySelector('#name');
+const create = document.querySelector('#createbtn');
+
+const retrieve =document.querySelector('#retrievebtn')
+const update =document.querySelector('#updatebtn')
+const deleteBtn =document.querySelector('#deletebtn')
+
+
+create.addEventListener('click', e =>{
     e.preventDefault();
-
-    console.log(submit)
+    console.log(fNumber.value);
+    console.log(fname.value);
+    console.log(username.value);
+    console.log(email.value);
 
 });
+retrieve.addEventListener('click', e =>{
+    e.preventDefault();
+    console.log(fNumber.value);
+    console.log(fname.value);
+    console.log(username.value);
+    console.log(email.value);
+});
+
+update.addEventListener('click', e =>{
+    e.preventDefault();
+    console.log(fNumber.value);
+    console.log(fname.value);
+    console.log(username.value);
+    console.log(email.value);
+});
+
+deleteBtn.addEventListener('click', e =>{
+    e.preventDefault();
+    console.log(fNumber.value);
+    console.log(fname.value);
+    console.log(username.value);
+    console.log(email.value);
+});
+
