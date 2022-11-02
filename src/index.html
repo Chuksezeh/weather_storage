@@ -149,7 +149,7 @@ retrieveBtn.addEventListener('click', e => {
     const dbRef = ref(db);
     get(child(dbRef, 'contactForm' + fNumber.value)).then((snapshot) => {
       console.log('snapshot', snapshot);
-    if(snapshot.exist()) {
+    if(snapshot.exists()) {
       console.log('snapshot', snapshot);
     } else {
       console.log('no record');
