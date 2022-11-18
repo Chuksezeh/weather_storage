@@ -1,6 +1,6 @@
 const cat = { name : 'controltech', breed : 'Cymric', color : 'white', greeting: function() {
     
-    console.log('Meotttuuyuyuw!');
+    console.log('Meoto!');
 
 } 
 
@@ -11,17 +11,34 @@ console.log(cat)
 //Question 1: In this task, your tasks are to 1a)Store the value of the name property inside the catName variable, using bracket notation. 
 //1b)Run the greeting() (it will log the greeting to the browser's console). 1c)Update the color property value to black.
 // 1
-const nameY = {
+const catName = {                                              //1
     name: cat.name
     
  };
- console.log('nameY =>>>>', cat.name );
-const fineName = Object.getOwnPropertyDescriptor(nameY, 'name');
+ console.log('The value is', cat.name );
+
+
+// const greeting = () => 'Meoto!';
+                                                                  //2}
+const result = cat.greeting();
+console.log(cat.greeting);
+
+
+cat.color = 'black'                                                //3
+ console.log(cat);
+
+
+//  const uche = function(time, name) {
+//     console.log(`how are you this ${time} ${name}`);
+// };
+// uche('morning', 'Ify');
+
+//const fineName = Object.getOwnPropertyDescriptor(nameY, 'name');
 //console.log(fineName.value);
  
  //console.log(object.values(nameY))
 //  console.log(catName.value)
-
+ 
 
 //  let call = Object.entries(cat)
 
@@ -37,13 +54,8 @@ const fineName = Object.getOwnPropertyDescriptor(nameY, 'name');
 
  // 2
 
-const greeting = function(){
-     cat.value
-     
 
-}
 
-greeting();
 
 // Object.key(color).filter(color =>{
 //     color[key.color] = 'black'
@@ -51,8 +63,10 @@ greeting();
 
 //catName.greeting();
 // 3
- cat.color = 'black'
- console.log(cat);
-
+ 
 //document.tags.H1.color = "blue"
 //console.log(color.value)
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
